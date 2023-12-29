@@ -1,0 +1,31 @@
+Đề Bài: Trò Chơi Đoán Số
+Yêu Cầu:
+Mô tả Trò Chơi:
+
+Người chơi sẽ cố gắng đoán một số nguyên được chọn ngẫu nhiên trong một khoảng số đã định.
+Trò chơi sẽ cung cấp gợi ý về sự gần xa của số đoán so với số được chọn.
+Tối đa 10 lần. Quá 10 lần sẽ End game. Mỗi vòng sẽ là 20 điểm.
+
+Yêu Cầu Kỹ Thuật:
+Sử dụng lập trình hướng đối tượng (OOP) để tổ chức mã nguồn.
+
+Sử dụng các lớp để biểu diễn đối tượng trò chơi, như Game, Player.
+Sử dụng các phương thức để thực hiện các chức năng như tạo số ngẫu nhiên, kiểm tra đoán số, và cung cấp gợi ý.
+Hiển thị thông điệp mô tả trò chơi và hướng dẫn chơi trong cmd.
+Đảm bảo xử lý đầu vào đúng đắn và kiểm soát luồng trò chơi.
+Luật Chơi:
+
+Chương trình sẽ chọn ngẫu nhiên một số nguyên từ một khoảng số đã định.
+Người chơi sẽ nhập một số nguyên là đoán của họ.
+Chương trình sẽ cung cấp gợi ý về sự gần xa của số đoán so với số được chọn, ví dụ "Quá lớn" hoặc "Quá nhỏ".
+Trò chơi sẽ tiếp tục cho đến khi người chơi đoán đúng số hoặc quyết định dừng lại.
+
+Đề Xuất Thêm:
+Thêm tính năng đếm số lần đoán và hiển thị sau khi kết thúc trò chơi.
+Cho phép người chơi chọn khoảng số mà họ muốn đoán.
+Thêm tính năng lưu điểm số cao (high score).
+(Luu Hash map: tên người chơi, level cao nhất, điểm cao nhất)
+
+Player: name, email
+Game: level, mark
+
